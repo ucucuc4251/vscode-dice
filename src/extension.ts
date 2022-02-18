@@ -22,7 +22,11 @@ export function activate(context: vscode.ExtensionContext) {
 
 function cosupu(context: vscode.ExtensionContext){
 	const cd = new CheckDice();
-	const type:vscode.DocumentSelector = vscode.workspace.getConfiguration('diceconf').get<vscode.DocumentSelector>('languages');
+	let t = vscode.workspace.getConfiguration('diceconf').get<vscode.DocumentSelector>('languages');
+	let type:vscode.DocumentSelector = ["plaintext"];
+	if(t !== undefined){
+		type = t;
+	}
 	const provider1 = vscode.languages.registerCompletionItemProvider(type, {
 
 		provideCompletionItems(document: vscode.TextDocument, position: vscode.Position, token: vscode.CancellationToken, context: vscode.CompletionContext) {
