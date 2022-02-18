@@ -1,5 +1,5 @@
 # vscode-dice README
-You can do it if you want to roll dice while writing a program.  
+You can do it if you want to dice roll while writing a program.  
 Write the programming language you want to use in package.json.  
   
 ## example
