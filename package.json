@@ -2,10 +2,11 @@
   "name": "vscode-dice",
 	"displayName": "vscode-dice",
 	"description": "you can play diceroll in your vscode.",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"engines": {
 		"vscode": "^1.64.0"
 	},
+	"icon": "images/logo.png",
 	"categories": [
 		"Other"
 	],
