@@ -37,14 +37,7 @@
 					],
 					"uniqueItems": true,
           			"items": {
-            			"type": "string",
-            			"enum": [
-							"plaintext",
-							"javascript",
-							"typescript",
-							"javascriptreact",
-							"typescriptreact"
-            			]
+            			"type": "string"
           			}
 				}
 			}
