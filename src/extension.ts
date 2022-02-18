@@ -20,6 +20,7 @@ export function activate(context: vscode.ExtensionContext) {
 	cosupu(context);
 }
 
+//context.subscriptions.push
 function cosupu(context: vscode.ExtensionContext){
 	const cd = new CheckDice();
 	let t = vscode.workspace.getConfiguration('diceconf').get<vscode.DocumentSelector>('languages');
