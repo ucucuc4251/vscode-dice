@@ -1,7 +1,7 @@
 {
   "name": "vscode-dice",
 	"displayName": "vscode-dice",
-	"description": "you can play diceroll in your vscode.",
+	"description": "you can play diceRoll in your vscode.",
 	"version": "1.0.0",
 	"engines": {
 		"vscode": "^1.64.0"
@@ -10,6 +10,13 @@
 	"categories": [
 		"Other"
 	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ucucuc4251/vscode-dice"
+	},
+	"bugs": {
+		"url": "https://github.com/ucucuc4251/vscode-dice/issues"
+	},
 	"activationEvents": [
         "*"
 	],
